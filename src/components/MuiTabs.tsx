@@ -1,6 +1,7 @@
+import React from "react";
 import { TabContext, TabList, TabPanel } from "@mui/lab";
 import { Box, Tab } from "@mui/material";
-import React, { useState } from "react";
+import { useState } from "react";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 
 export const MuiTabs = () => {

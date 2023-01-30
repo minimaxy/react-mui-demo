@@ -1,3 +1,4 @@
+import React from "react";
 import {
   AppBar,
   Button,
@@ -9,7 +10,7 @@ import {
   MenuItem,
 } from "@mui/material";
 import CatchingPokemonIcon from "@mui/icons-material/CatchingPokemon";
-import React, { useState } from "react";
+import { useState } from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 export const MuiNavbar = () => {

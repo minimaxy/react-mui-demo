@@ -1,5 +1,6 @@
+import React from "react";
 import { Stack, Rating } from "@mui/material";
-import React, { useState } from "react";
+import { useState } from "react";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 

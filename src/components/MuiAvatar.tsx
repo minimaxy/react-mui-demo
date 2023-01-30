@@ -1,3 +1,4 @@
+import React from "react";
 import { Stack, Avatar, AvatarGroup } from "@mui/material";
 
 export const MuiAvatar = () => {

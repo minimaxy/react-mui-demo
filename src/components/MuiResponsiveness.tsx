@@ -5,7 +5,7 @@ const StyledBox = styled(Box)(({ theme }) => ({
   height: "250px",
   width: "250px",
   //   backgroundColor: theme.status.danger,
-  backgroundColor: theme.palette.neutral?.darker,
+  // backgroundColor: theme.palette.neutral?.darker,
 }));
 
 export const MuiResponsiveness = () => {

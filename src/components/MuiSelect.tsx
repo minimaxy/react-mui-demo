@@ -1,5 +1,6 @@
+import React from "react";
 import { Box, TextField, MenuItem } from "@mui/material";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const MuiSelect = () => {
   const [countries, setCountries] = useState<string[]>([]);
@@ -19,7 +20,7 @@ export const MuiSelect = () => {
         SelectProps={{
           multiple: true,
         }}
-        size='small'
+        size="small"
         color="secondary"
         helperText="Prease select"
         error

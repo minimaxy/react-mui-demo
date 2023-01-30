@@ -1,5 +1,6 @@
+import React from "react";
 import { Box, FormControlLabel, Switch } from "@mui/material";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const MuiSwitch = () => {
   const [checked, setChecked] = useState(false);
