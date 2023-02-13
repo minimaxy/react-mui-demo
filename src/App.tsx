@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Typography } from "@mui/material";
 
 // import { LocalizationProvider } from "@mui/lab";
 // import AdapterDateFns from "@mui/lab/AdapterDateFns";
@@ -63,42 +64,147 @@ function App() {
     <ThemeProvider theme={theme}>
       {/* <LocalizationProvider dateAdapter={AdapterDateFns}> */}
       <div className="App">
+        <Typography variant="h3" component="h2">
+          MuiTypography
+        </Typography>
         <MuiTypography />
+        <Typography variant="h3" component="h2">
+          MuiButton
+        </Typography>
         <MuiButton />
+        <Typography variant="h3" component="h2">
+          MuiTextField
+        </Typography>
         <MuiTextField />
+        <Typography variant="h3" component="h2">
+          MuiSelect
+        </Typography>
         <MuiSelect />
+        <Typography variant="h3" component="h2">
+          MuiRadioButton
+        </Typography>
         <MuiRadioButton />
+        <Typography variant="h3" component="h2">
+          MuiCheckbox
+        </Typography>
         <MuiCheckbox />
+        <Typography variant="h3" component="h2">
+          MuiSwitch
+        </Typography>
         <MuiSwitch />
+        <Typography variant="h3" component="h2">
+          MuiRating
+        </Typography>
         <MuiRating />
+        <Typography variant="h3" component="h2">
+          MuiAutocomplete
+        </Typography>
         <MuiAutocomplete />
+        <Typography variant="h3" component="h2">
+          MuiLayout
+        </Typography>
         <MuiLayout />
+        <Typography variant="h3" component="h2">
+          MuiCard
+        </Typography>
         <MuiCard />
+        <Typography variant="h3" component="h2">
+          MuiAccordion
+        </Typography>
         <MuiAccordion />
+        <Typography variant="h3" component="h2">
+          MuiImageList
+        </Typography>
         <MuiImageList />
+        <Typography variant="h3" component="h2">
+          MuiNavbar
+        </Typography>
         <MuiNavbar />
+        <Typography variant="h3" component="h2">
+          MuiBreadcrumbs
+        </Typography>
         <MuiBreadcrumbs />
+        <Typography variant="h3" component="h2">
+          MuiDrawer
+        </Typography>
         <MuiDrawer />
+        <Typography variant="h3" component="h2">
+          MuiLink
+        </Typography>
         <MuiLink />
+        <Typography variant="h3" component="h2">
+          MuiSpeedDial
+        </Typography>
         <MuiSpeedDial />
+        <Typography variant="h3" component="h2">
+          MuiBottomNavigation
+        </Typography>
         <MuiBottomNavigation />
+        <Typography variant="h3" component="h2">
+          MuiAvatar
+        </Typography>
         <MuiAvatar />
+        <Typography variant="h3" component="h2">
+          MuiBadge
+        </Typography>
         <MuiBadge />
+        <Typography variant="h3" component="h2">
+          MuiList
+        </Typography>
         <MuiList />
+        <Typography variant="h3" component="h2">
+          MuiChip
+        </Typography>
         <MuiChip />
+        <Typography variant="h3" component="h2">
+          MuiTooltip
+        </Typography>
         <MuiTooltip />
+        <Typography variant="h3" component="h2">
+          MuiTable
+        </Typography>
         <MuiTable />
+        <Typography variant="h3" component="h2">
+          MuiAlert
+        </Typography>
         <MuiAlert />
+        <Typography variant="h3" component="h2">
+          MuiSnackbar
+        </Typography>
         <MuiSnackbar />
+        <Typography variant="h3" component="h2">
+          MuiDialog
+        </Typography>
         <MuiDialog />
+        <Typography variant="h3" component="h2">
+          MuiProgress
+        </Typography>
         <MuiProgress />
+        <Typography variant="h3" component="h2">
+          MuiSkeleton
+        </Typography>
         <MuiSkeleton />
+        <Typography variant="h3" component="h2">
+          MuiLoadingButton
+        </Typography>
         <MuiLoadingButton />
         {/* <MuiPicker /> */}
         {/* <MuiDateTimePicker /> */}
+        <Typography variant="h3" component="h2">
+          MuiTabs
+        </Typography>
         <MuiTabs />
+        <Typography variant="h3" component="h2">
+          MuiTimeline
+        </Typography>
         <MuiTimeline />
+        <Typography variant="h3" component="h2">
+          MuiMasonry
+        </Typography>
         <MuiMasonry />
+        <Typography variant="h3" component="h2">
+          MuiResponsiveness
+        </Typography>
         <MuiResponsiveness />
       </div>
       {/* </LocalizationProvider> */}
